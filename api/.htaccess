@@ -1,0 +1,4 @@
+# TODO: Tady je rewrite rule zbytečný, přidej ho spíš k té reactí aplikaci?
+# RewriteEngine On
+# RewriteRule ^user/$ user.php [NC,L]
+# RewriteRule ^user/(.+)$ user.php?user_username=$1 [NC,L]
